@@ -13,3 +13,5 @@ func main() {
     http.HandleFunc("/", helloWorld)
     http.ListenAndServe(":6111", nil)
 }
+
+// https://www.digitalocean.com/community/tutorials/how-to-install-go-on-ubuntu-18-04
